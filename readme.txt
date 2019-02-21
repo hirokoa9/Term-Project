@@ -1,0 +1,1 @@
+This game uses pygame, so pygame needs to be installed in order to play this game. All of the necessary files and libraries are included in the submission file. The main file is ‘mainFile.py’, and the game will start when this file is run.
