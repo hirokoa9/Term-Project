@@ -1,0 +1,29 @@
+Project Description
+	The name of my term project is Planet Invader. It’s a game in which the player controls a UFO that abducts people and objects from a planet through a beam that the UFO emits. As the player abducts things, the abduction  power of the UFO increases, and the score increases. The goal of the objective is to increase the abduction power of the UFO to the point where the UFO can abduct the whole planet. However, the planet and its people will try to defend themselves by firing missiles at the UFO, which the player has to dodge.
+
+Competitive Analysis
+	I have seen similar flash games online that have the same concept: controlling a UFO or a spaceship of some sort that invades a planet. My term project is similar in terms of the theme and the objective of the game, maybe even the way the player controls the UFO, since I intend to use the basic arrow keys and spacebar to control the game. However, I intend to make the game more complex and unique by creating a game AI that tracks the player’s movements and tries to shoot the player down more accurately as time passes by analyzing previous movements.
+
+Structural Plan
+	The game will have 4 modes: start screen, instructions, settings, and game play. Each will be a different mode or a file, and there will also be another file with images/icons that the game imports. The start screen , instructions, and settings are mainly draw functions that only intake a few key inputs or interactive icons that lets the player navigate through the modes. The game play mode will most likely be constructed of a few files that contain multiple classes that keep track of each element in the game: the score, the UFO, and the objects on the ground.
+
+Algorithmic Plan
+	The hardest part of my term project is setting where and how the missiles are going to be launched at the player so that it progressively gets harder to dodge. I plan to do this by recording where the player is at certain intervals of time after the missile is launched and adjusting the angle the missile is moving at according to the coordinates of the location of the player. As time passes, I will make the timer interval of updating the player location more frequent, or make the maximum angular velocity of the missile increase.
+
+Timeline Plan
+	I plan on creating the modes and importing most images for TP1 4/17, having a working demo (everything except the tracking of the missiles) completed for TP2 due 4/25, and then debug and improve the algorithm for launching the missiles to submit on 5/3.
+
+Version Control Plan
+	I will upload the code on google drive and update it when I make substantial changes to my code.
+
+Module List
+Pygame
+
+TP2 Update
+	I plan on creating a high score page that lists all of the previous tries and their scores by creating a .txt file. Also, I might add power up items.
+
+TP3 Update
+I added a high score page that reads and displays the top 10 highest scores from a .txt file. I also added a pause button during game play mode, an exploding animation when the player collides with a missile, an invincible time period for the player right after the player collides with a missile, background music, and sound effects. There are no power up items.
+
+
+
